@@ -18,7 +18,8 @@ h1{
     
 }
 
-input[type="number"]{
+/*input[type="number"]*/
+.montant{
     width: 50%;
     box-sizing: border-box;
     padding: 0 10px;
@@ -30,10 +31,22 @@ input[type="number"]{
     border: 0.5px solid #4e4e4e;
     outline: none;
 }
+.periode{
+  width: 12%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  height: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100%;
+  line-height: 23px;
+  margin: 15px 0 15px 0;
+  border: 0.5px solid #4e4e4e;
+  outline: none;
+}
 
 
 input[type=range] {
-    width: 55%;
+    width: 53%;
     margin: 5.5px;
     background-color: transparent;
     -webkit-appearance: none;
