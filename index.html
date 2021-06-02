@@ -11,7 +11,21 @@
 
                 Rate <input type="range" class="range" min="0" max="35" value="0" id="rate" step="0.5" oninput="this.nextElementSibling.value = this.value">
                 <output for="rangeInput">0</output><span>%</span><br/>
-                 No. of Years <input type="number" class="range periode"  id="years">  <br/>
+                <label for="years">No. of Years</label>
+                <select name="years" type="number" id="years" class="range periode"  id="years">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                </select>
+                  <br/>
                 Interest : <span id="result"></span><br> <br>
 
                 <button class="btn" onclick="compute()">Compute</button>
