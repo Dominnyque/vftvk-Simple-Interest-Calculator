@@ -12,7 +12,7 @@ function compute(){
 if (p>0){
 document.getElementById("result").innerHTML = " If you deposit "+ p +" at the interest of "+ r+"%" + " You will receive an amount of " +interest + " in the year " + timing;
 } else if (p==0){
-   alert("Principal amount cannot be Zero ( 0 )");
+   alert("Principal amount cannot be empty or Zero. please enter a positive number");
 }
 else if (p<0){
    alert("Please enter a positive number");
