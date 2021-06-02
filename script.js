@@ -2,7 +2,6 @@ function compute(){
    var p = document.getElementById("principal").value;
    var r = document.getElementById("rate").value;
    var t = document.getElementById("years").value;
-
    var pd= parseInt(t)
 
    var interest = Number(p*r* (pd)/100);
