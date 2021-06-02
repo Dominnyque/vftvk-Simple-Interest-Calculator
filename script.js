@@ -4,9 +4,11 @@ function compute(){
    var r = document.getElementById("rate").value;
    var t = document.getElementById("years").value;
 
-   var interest = Number(p*r*t/100);
+   var pd= parseInt(t)
+
+   var interest = Number(p*r* (pd)/100);
    amount = parseInt(p)+parseFloat(interest);
-   var timing = Number(2020) + Number(t);
+   var timing = Number(2020) + (pd);
 
 document.getElementById("result").innerHTML = " If you deposit "+ p +" at the interest of "+ r+"%" + " You will receive an amount of " +interest + " in the year " + timing;
 }
